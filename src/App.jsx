@@ -6,7 +6,11 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="*" element={<>Error!!!</>} />
+        <Route path="*" element={(
+	  <>
+	    Sorry, this page does not exist
+	  </>
+	)} />
       </Routes>
     </BrowserRouter>
   );
