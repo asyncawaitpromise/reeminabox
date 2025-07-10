@@ -69,14 +69,15 @@ const About = () => {
               <div className="relative z-10">
                 <div className="w-16 h-0.5 bg-gray-800 mx-auto mb-8"></div>
                 <h3 className="text-2xl lg:text-3xl font-light text-gray-800 mb-6 text-center tracking-wide">
-                  My Photography Philosophy
+                  My Artistic Philosophy
                 </h3>
                 <p className="text-gray-600 text-lg leading-relaxed text-center max-w-4xl mx-auto font-light">
-                  I believe that the best photographs are those that capture genuine emotions and 
-                  authentic moments. My approach is to create a comfortable environment where 
-                  natural expressions can flourish, resulting in images that truly reflect the 
-                  essence of my subjects. Whether it's a wedding, portrait session, or special 
-                  event, I strive to document the real, unguarded moments that make each story unique.
+                  I believe that photography is more than just capturing moments—it's about creating 
+                  timeless pieces of art that evoke emotion and inspire contemplation. Each print in my 
+                  collection is carefully curated and crafted to bring beauty into your space. 
+                  My work focuses on the interplay of light, shadow, and form, creating pieces that 
+                  are both visually striking and emotionally resonant. Every print is produced using 
+                  premium materials to ensure longevity and museum-quality presentation.
                 </p>
               </div>
             </div>
@@ -85,24 +86,24 @@ const About = () => {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="w-16 h-16 bg-gray-800 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-white text-xl">📸</span>
+                  <span className="text-white text-xl">🎨</span>
                 </div>
-                <h4 className="text-xl font-medium text-gray-800 mb-2">Portrait Photography</h4>
-                <p className="text-gray-600">Capturing authentic expressions and natural beauty in every shot.</p>
+                <h4 className="text-xl font-medium text-gray-800 mb-2">Fine Art Prints</h4>
+                <p className="text-gray-600">Museum-quality prints using premium papers and archival inks.</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-gray-800 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-white text-xl">🎉</span>
+                  <span className="text-white text-xl">📦</span>
                 </div>
-                <h4 className="text-xl font-medium text-gray-800 mb-2">Event Photography</h4>
-                <p className="text-gray-600">Documenting special moments and celebrations with artistic flair.</p>
+                <h4 className="text-xl font-medium text-gray-800 mb-2">Secure Shipping</h4>
+                <p className="text-gray-600">Carefully packaged and shipped worldwide with tracking and insurance.</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-gray-800 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-white text-xl">✨</span>
+                  <span className="text-white text-xl">⭐</span>
                 </div>
-                <h4 className="text-xl font-medium text-gray-800 mb-2">Creative Direction</h4>
-                <p className="text-gray-600">Bringing creative vision to life through thoughtful composition.</p>
+                <h4 className="text-xl font-medium text-gray-800 mb-2">Limited Editions</h4>
+                <p className="text-gray-600">Each piece is part of a limited collection, ensuring exclusivity and value.</p>
               </div>
             </div>
           </div>

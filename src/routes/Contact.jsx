@@ -12,8 +12,8 @@ const Contact = () => {
             Get In Touch
           </h1>
           <p className="text-lg lg:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed font-light">
-            Ready to capture your special moments? Let's discuss your vision and 
-            create something beautiful together.
+            Interested in purchasing fine art prints? Have questions about sizing, framing, 
+            or custom orders? I'd love to help you find the perfect piece for your space.
           </p>
         </div>
       </section>
@@ -25,7 +25,7 @@ const Contact = () => {
             <div className="grid md:grid-cols-2 gap-16">
               {/* Contact Information */}
               <div>
-                <h2 className="text-3xl font-light text-gray-800 mb-8">Let's Connect</h2>
+                <h2 className="text-3xl font-light text-gray-800 mb-8">Purchase Inquiries</h2>
                 <div className="space-y-6 mb-12">
                   <div className="flex items-center">
                     <div className="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center mr-4">
@@ -70,8 +70,8 @@ const Contact = () => {
                       <MapPin className="w-5 h-5 text-white" />
                     </div>
                     <div>
-                      <h3 className="font-medium text-gray-800">Location</h3>
-                      <span className="text-gray-600">Available Worldwide</span>
+                      <h3 className="font-medium text-gray-800">Shipping</h3>
+                      <span className="text-gray-600">Worldwide Delivery Available</span>
                     </div>
                   </div>
                 </div>
@@ -98,7 +98,7 @@ const Contact = () => {
               {/* Contact Form */}
               <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg p-8 animate-fade-in-scale">
                 <div className="w-12 h-0.5 bg-gray-800 mb-6"></div>
-                <h3 className="text-2xl font-light text-gray-800 mb-6 tracking-wide">Send a Message</h3>
+                <h3 className="text-2xl font-light text-gray-800 mb-6 tracking-wide">Send an Inquiry</h3>
                 <form className="space-y-6">
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
@@ -134,15 +134,15 @@ const Contact = () => {
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Event Type
+                      Inquiry Type
                     </label>
                     <select className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-800 focus:border-transparent">
-                      <option>Select event type...</option>
-                      <option>Wedding</option>
-                      <option>Portrait Session</option>
-                      <option>Event Photography</option>
-                      <option>Family Photos</option>
-                      <option>Other</option>
+                      <option>Select inquiry type...</option>
+                      <option>Print Purchase</option>
+                      <option>Custom Size Request</option>
+                      <option>Bulk Order</option>
+                      <option>Framing Options</option>
+                      <option>General Question</option>
                     </select>
                   </div>
                   <div>
@@ -152,14 +152,14 @@ const Contact = () => {
                     <textarea
                       rows={5}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-800 focus:border-transparent"
-                      placeholder="Tell me about your vision and what you have in mind..."
+                      placeholder="Tell me about the prints you're interested in, preferred sizes, or any questions you have..."
                     ></textarea>
                   </div>
                   <button
                     type="submit"
                     className="w-full btn btn-primary btn-lg bg-gray-900 hover:bg-gray-800 border-gray-900 hover:border-gray-800 text-white btn-professional transition-all duration-300 hover:scale-105"
                   >
-                    Send Message
+                    Send Inquiry
                   </button>
                 </form>
               </div>
@@ -178,31 +178,32 @@ const Contact = () => {
             <div className="space-y-8">
               <div className="bg-white rounded-lg p-6">
                 <h3 className="text-xl font-medium text-gray-800 mb-3">
-                  What is your booking process?
+                  What print sizes and materials do you offer?
                 </h3>
                 <p className="text-gray-600">
-                  I recommend booking as early as possible to secure your preferred date. 
-                  We'll start with a consultation to discuss your vision, then I'll send 
-                  you a detailed proposal and contract.
+                  All prints are available in multiple sizes from 8x10 to 40x60 inches. 
+                  I use premium archival papers including fine art matte, pearl, and metallic finishes. 
+                  Custom sizes are also available upon request.
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6">
                 <h3 className="text-xl font-medium text-gray-800 mb-3">
-                  How long does it take to receive photos?
+                  How long does shipping take?
                 </h3>
                 <p className="text-gray-600">
-                  Turnaround time varies by session type. Portrait sessions typically take 
-                  1-2 weeks, while larger events like weddings may take 4-6 weeks for 
-                  full gallery delivery.
+                  Most prints are shipped within 5-7 business days. Domestic shipping takes 3-5 days, 
+                  while international orders typically arrive within 7-14 days. All orders include 
+                  tracking and insurance.
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6">
                 <h3 className="text-xl font-medium text-gray-800 mb-3">
-                  Do you travel for sessions?
+                  Do you offer framing services?
                 </h3>
                 <p className="text-gray-600">
-                  Yes! I'm available for travel worldwide. Travel fees may apply depending 
-                  on the location and duration of the trip.
+                  While I don't offer framing directly, I can recommend professional framers 
+                  and provide specifications for optimal presentation. All prints come with 
+                  care instructions to ensure longevity.
                 </p>
               </div>
             </div>

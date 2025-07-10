@@ -19,25 +19,25 @@ const Homepage = () => {
             Reem Totry Photography
           </h1>
           <p className="text-xl lg:text-2xl max-w-3xl mx-auto leading-relaxed mb-8 drop-shadow-md">
-            Capturing life's beautiful moments through the lens. 
-            Explore my collection of photography work showcasing the art of visual storytelling.
+            Discover and purchase fine art photography prints. 
+            Explore my curated collection of artistic photographs available for your home or collection.
           </p>
           <Link 
             to="/portfolio" 
             className="btn btn-primary btn-lg text-white bg-white bg-opacity-25 hover:bg-opacity-35 border-white border-2 backdrop-blur-sm transition-all duration-300 drop-shadow-lg font-medium"
           >
-            View Portfolio
+            Shop Prints
           </Link>
         </div>
       </section>
 
       {/* Featured Work Preview */}
-      <section className="py-16 lg:py-20 animate-fade-in">
+      <section className="py-16 lg:py-20 animate-fade-in bg-white">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="text-center mb-12">
             <div className="w-16 h-0.5 bg-gray-800 mx-auto mb-6"></div>
-            <h2 className="text-3xl lg:text-4xl font-light text-gray-800 mb-4 tracking-wide">Featured Work</h2>
-            <p className="text-gray-600 text-lg font-light">A glimpse into my recent photography</p>
+            <h2 className="text-3xl lg:text-4xl font-light text-gray-800 mb-4 tracking-wide">Featured Prints</h2>
+            <p className="text-gray-600 text-lg font-light">Fine art photography prints available for purchase</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 animate-slide-up" style={{animationDelay: '0.1s'}}>
@@ -48,7 +48,7 @@ const Homepage = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-60 transition-opacity duration-500"></div>
               <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                <p className="text-sm font-light">Portrait Photography</p>
+                <p className="text-sm font-light">Abstract Art • $45</p>
               </div>
             </div>
             <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 animate-slide-up" style={{animationDelay: '0.2s'}}>
@@ -59,7 +59,7 @@ const Homepage = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-60 transition-opacity duration-500"></div>
               <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                <p className="text-sm font-light">Wedding Photography</p>
+                <p className="text-sm font-light">Nature Series • $55</p>
               </div>
             </div>
             <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 animate-slide-up" style={{animationDelay: '0.3s'}}>
@@ -70,7 +70,7 @@ const Homepage = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-60 transition-opacity duration-500"></div>
               <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                <p className="text-sm font-light">Event Photography</p>
+                <p className="text-sm font-light">Urban Collection • $65</p>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ const Homepage = () => {
               to="/portfolio" 
               className="btn btn-outline btn-lg border-gray-900 text-gray-900 hover:bg-gray-900 hover:border-gray-900 hover:text-white"
             >
-              View Full Portfolio
+              Browse All Prints
             </Link>
           </div>
         </div>
@@ -93,15 +93,15 @@ const Homepage = () => {
             <div className="w-16 h-0.5 bg-gray-800 mx-auto mb-8"></div>
             <h2 className="text-3xl lg:text-4xl font-light text-gray-800 mb-8 tracking-wide">About reeminabox</h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-8 font-light max-w-3xl mx-auto">
-              Welcome to my world of photography. I'm Reem Totry, a passionate photographer 
-              who believes in capturing the essence of every moment through my lens. 
-              Every photograph tells a story, and I'm here to help you tell yours.
+              Welcome to my artistic journey. I'm Reem Totry, a fine art photographer 
+              creating unique prints that capture emotion, beauty, and perspective. 
+              Each piece is carefully crafted and available as limited edition prints for collectors and art enthusiasts.
             </p>
             <Link 
               to="/about" 
               className="btn btn-outline btn-lg border-gray-900 text-gray-900 hover:bg-gray-900 hover:border-gray-900 hover:text-white transition-all duration-300 hover:scale-105 font-medium"
             >
-              Learn More About Me
+              Learn More About My Art
             </Link>
           </div>
         </div>
