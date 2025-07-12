@@ -4,6 +4,8 @@ import Footer from "./components/Footer.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 import Homepage from "./routes/Homepage.jsx";
 import Portfolio from "./routes/Portfolio.jsx";
+import CollectionView from "./routes/CollectionView.jsx";
+import ImageView from "./routes/ImageView.jsx";
 import About from "./routes/About.jsx";
 import Contact from "./routes/Contact.jsx";
 
@@ -17,6 +19,8 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/portfolio/:collectionSlug" element={<CollectionView />} />
+            <Route path="/portfolio/:collectionSlug/:imageRef" element={<ImageView />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={(

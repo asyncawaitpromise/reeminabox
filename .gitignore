@@ -1,3 +1,4 @@
+.help*
 /dist
 dist.tar
 /node_modules

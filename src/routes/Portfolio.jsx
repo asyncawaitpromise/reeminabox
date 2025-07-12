@@ -1,13 +1,16 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Portfolio = () => {
+  const navigate = useNavigate();
+
   const portfolioCategories = [
     {
       title: "Abstract Collection",
       slug: "abstract",
       description: "Bold compositions exploring form, color, and texture",
       thumbnail: "https://picsum.photos/400/500?random=1",
-      imageCount: 25,
+      imageCount: 12,
       aspectRatio: "4:5",
       priceRange: "$35 - $85"
     },
@@ -16,7 +19,7 @@ const Portfolio = () => {
       slug: "landscapes",
       description: "Fine art prints of natural beauty and scenic vistas",
       thumbnail: "https://picsum.photos/600/400?random=2",
-      imageCount: 18,
+      imageCount: 10,
       aspectRatio: "16:9",
       priceRange: "$45 - $125"
     },
@@ -25,7 +28,7 @@ const Portfolio = () => {
       slug: "urban",
       description: "Artistic interpretations of city life and architecture",
       thumbnail: "https://picsum.photos/400/600?random=3",
-      imageCount: 32,
+      imageCount: 15,
       aspectRatio: "3:4",
       priceRange: "$40 - $95"
     },
@@ -34,7 +37,7 @@ const Portfolio = () => {
       slug: "minimalist",
       description: "Clean, simple compositions with powerful impact",
       thumbnail: "https://picsum.photos/500/500?random=4",
-      imageCount: 22,
+      imageCount: 8,
       aspectRatio: "1:1",
       priceRange: "$50 - $110"
     },
@@ -43,7 +46,7 @@ const Portfolio = () => {
       slug: "portraits",
       description: "Intimate fine art portraits capturing human essence",
       thumbnail: "https://picsum.photos/450/600?random=5",
-      imageCount: 20,
+      imageCount: 12,
       aspectRatio: "3:4",
       priceRange: "$55 - $135"
     },
@@ -52,11 +55,15 @@ const Portfolio = () => {
       slug: "nature",
       description: "Macro and detail studies of the natural world",
       thumbnail: "https://picsum.photos/700/400?random=6",
-      imageCount: 30,
+      imageCount: 18,
       aspectRatio: "16:9",
       priceRange: "$40 - $100"
     }
   ];
+
+  const handleCollectionClick = (collection) => {
+    navigate(`/portfolio/${collection.slug}`);
+  };
 
   return (
     <div className="min-h-screen bg-white">
@@ -84,6 +91,7 @@ const Portfolio = () => {
                 key={category.slug}
                 className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 cursor-pointer animate-slide-up"
                 style={{animationDelay: `${index * 0.1}s`}}
+                onClick={() => handleCollectionClick(category)}
               >
                 <div className="relative">
                   <img
@@ -109,6 +117,7 @@ const Portfolio = () => {
           </div>
         </div>
       </section>
+
     </div>
   );
 };
